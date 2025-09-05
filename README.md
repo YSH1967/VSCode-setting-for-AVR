@@ -17,7 +17,7 @@ sudo mkdir -p /opt/microchip/avr-gcc
 sudo mv avr8-gnu-toolchain-linux_x86_64/* /opt/microchip/avr-gcc/**
 ```
 
-![image.png](attachment:3152cf36-0f0a-4a99-aaac-c4f7a8f62543:image.png)
+![image.png](images/image 1.png)
 
 ![image.png](attachment:777b49c5-68be-4ac3-b9fa-076970602a05:image.png)
 
