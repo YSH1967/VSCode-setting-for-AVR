@@ -6,7 +6,7 @@ https://www.microchip.com/en-us/tools-resources/develop/microchip-studio/gcc-com
 
 - **Linux 버전을 다운받자**
 
-![image.png](attachment:799075f4-02bd-4e04-939b-7374b6451fbd:image.png)
+/images/image1.png
 
 - **다운받은 후 터미널에서**
 
