@@ -11,22 +11,22 @@ https://www.microchip.com/en-us/tools-resources/develop/microchip-studio/gcc-com
 - **다운받은 후 터미널에서**
 
 ```bash
-**cd ~/Downloads
+cd ~/Downloads
 tar -xf avr8-gnu-toolchain-*-linux.any.x86_64.tar.gz
 sudo mkdir -p /opt/microchip/avr-gcc
-sudo mv avr8-gnu-toolchain-linux_x86_64/* /opt/microchip/avr-gcc/**
+sudo mv avr8-gnu-toolchain-linux_x86_64/* /opt/microchip/avr-gcc/
 ```
 
 ![bash](images/image01.png)
 
-![bash](images/image 2.png)
+![bash](images/image2.png)
 
-![bash](images/image 3.png)
+![bash](images/image3.png)
 
 ## ✅ 2. 환경변수 설정 (`~/.bashrc` 또는 `~/.zshrc`)
 
 ```bash
-**export PATH=/opt/microchip/avr-gcc/bin:$PATH**
+export PATH=/opt/microchip/avr-gcc/bin:$PATH
 ```
 
 ![image.png](attachment:3c0feb33-8d22-4773-8a2a-f4118a03edda:image.png)
