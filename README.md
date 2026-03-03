@@ -19,9 +19,9 @@ sudo mv avr8-gnu-toolchain-linux_x86_64/* /opt/microchip/avr-gcc/**
 
 ![bash](images/image01.png)
 
-![image.png](attachment:777b49c5-68be-4ac3-b9fa-076970602a05:image.png)
+![bash](images/image2.png)
 
-![image.png](attachment:bc0d5008-cf06-4325-9319-53585fe0082c:image.png)
+![bash](images/image3.png)
 
 ## ✅ 2. 환경변수 설정 (`~/.bashrc` 또는 `~/.zshrc`)
 
