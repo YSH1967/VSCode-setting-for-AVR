@@ -8,7 +8,7 @@
 
 - **Linux 버전을 다운받자**
 
-![image.png](vscode%20%ED%99%98%EA%B2%BD%20%EC%84%A4%EC%A0%95(Ubuntu24%2004)/image.png)
+![image.png](images/image.png)
 
 - **다운받은 후 터미널에서**
 
@@ -19,11 +19,11 @@ sudo mkdir -p /opt/microchip/avr-gcc
 sudo mv avr8-gnu-toolchain-linux_x86_64/* /opt/microchip/avr-gcc/**
 ```
 
-![image.png](vscode%20%ED%99%98%EA%B2%BD%20%EC%84%A4%EC%A0%95(Ubuntu24%2004)/image%201.png)
+![image.png](images/image%201.png)
 
-![image.png](vscode%20%ED%99%98%EA%B2%BD%20%EC%84%A4%EC%A0%95(Ubuntu24%2004)/image%202.png)
+![image.png](images/image%202.png)
 
-![image.png](vscode%20%ED%99%98%EA%B2%BD%20%EC%84%A4%EC%A0%95(Ubuntu24%2004)/image%203.png)
+![image.png](images/image%203.png)
 
 ## ✅ 2. 환경변수 설정 (`~/.bashrc` 또는 `~/.zshrc`)
 
@@ -31,7 +31,7 @@ sudo mv avr8-gnu-toolchain-linux_x86_64/* /opt/microchip/avr-gcc/**
 **export PATH=/opt/microchip/avr-gcc/bin:$PATH**
 ```
 
-![image.png](vscode%20%ED%99%98%EA%B2%BD%20%EC%84%A4%EC%A0%95(Ubuntu24%2004)/image%204.png)
+![image.png](images/image%204.png)
 
 - **설정 반영**
 
@@ -39,7 +39,7 @@ sudo mv avr8-gnu-toolchain-linux_x86_64/* /opt/microchip/avr-gcc/**
 **source ~/.bashrc   # 또는 source ~/.zshrc**
 ```
 
-![image.png](vscode%20%ED%99%98%EA%B2%BD%20%EC%84%A4%EC%A0%95(Ubuntu24%2004)/image%205.png)
+![image.png](images/image%205.png)
 
 ---
 
@@ -51,7 +51,7 @@ sudo mv avr8-gnu-toolchain-linux_x86_64/* /opt/microchip/avr-gcc/**
 
 - **정상 출력되면 설치 성공!**
 
-![image.png](vscode%20%ED%99%98%EA%B2%BD%20%EC%84%A4%EC%A0%95(Ubuntu24%2004)/image%206.png)
+![image.png](images/image%206.png)
 
 ---
 
@@ -61,7 +61,7 @@ sudo mv avr8-gnu-toolchain-linux_x86_64/* /opt/microchip/avr-gcc/**
 **sudo apt update**
 ```
 
-![image.png](vscode%20%ED%99%98%EA%B2%BD%20%EC%84%A4%EC%A0%95(Ubuntu24%2004)/image%207.png)
+![image.png](images/image%207.png)
 
 ```bash
 **sudo apt install -y avrdude cmake make**
@@ -70,37 +70,37 @@ sudo mv avr8-gnu-toolchain-linux_x86_64/* /opt/microchip/avr-gcc/**
 - **`avrdude`: 업로드 도구**
 - **`cmake`, `make`: 빌드 도구**
 
-![image.png](vscode%20%ED%99%98%EA%B2%BD%20%EC%84%A4%EC%A0%95(Ubuntu24%2004)/image%208.png)
+![image.png](images/image%208.png)
 
 ### ➡️ **설치 버전 확인 및 위치 확인**
 
 - **avrdude**
 
-![image.png](vscode%20%ED%99%98%EA%B2%BD%20%EC%84%A4%EC%A0%95(Ubuntu24%2004)/image%209.png)
+![image.png](images/image%209.png)
 
-![image.png](vscode%20%ED%99%98%EA%B2%BD%20%EC%84%A4%EC%A0%95(Ubuntu24%2004)/image%2010.png)
+![image.png](images/image%2010.png)
 
 - **cmake**
 
-![image.png](vscode%20%ED%99%98%EA%B2%BD%20%EC%84%A4%EC%A0%95(Ubuntu24%2004)/image%2011.png)
+![image.png](images/image%2011.png)
 
 - **make**
 
-![image.png](vscode%20%ED%99%98%EA%B2%BD%20%EC%84%A4%EC%A0%95(Ubuntu24%2004)/image%2012.png)
+![image.png](images/image%2012.png)
 
 ## **✅ 4**. VScode 확장 모듈 설치
 
 - **C/C++**
 
-![Untitled](vscode%20%ED%99%98%EA%B2%BD%20%EC%84%A4%EC%A0%95(Ubuntu24%2004)/Untitled.png)
+![Untitled](images/Untitled.png)
 
 - **CMake**
 
-![Untitled](vscode%20%ED%99%98%EA%B2%BD%20%EC%84%A4%EC%A0%95(Ubuntu24%2004)/Untitled%201.png)
+![Untitled](images/Untitled%201.png)
 
 - **CMake Tools**
 
-![Untitled](vscode%20%ED%99%98%EA%B2%BD%20%EC%84%A4%EC%A0%95(Ubuntu24%2004)/Untitled%202.png)
+![Untitled](images/Untitled%202.png)
 
 ## **✅ 5. 작업영역(workspace)생성**
 
@@ -108,24 +108,24 @@ sudo mv avr8-gnu-toolchain-linux_x86_64/* /opt/microchip/avr-gcc/**
 **mkdir ~/arduino328p**
 ```
 
-![image.png](vscode%20%ED%99%98%EA%B2%BD%20%EC%84%A4%EC%A0%95(Ubuntu24%2004)/image%2013.png)
+![image.png](images/image%2013.png)
 
 ### ➡️ vscode 를 실행
 
 - **File->Save Workspace As... 를 선택**
 
-![Untitled](vscode%20%ED%99%98%EA%B2%BD%20%EC%84%A4%EC%A0%95(Ubuntu24%2004)/Untitled%203.png)
+![Untitled](images/Untitled%203.png)
 
 - **arduino328p 선택하고**
 - **워크스페이스 이름을 정함**
 
-![image.png](vscode%20%ED%99%98%EA%B2%BD%20%EC%84%A4%EC%A0%95(Ubuntu24%2004)/efe2a3db-eaa1-4a5b-9a74-e77d6de5ed9d.png)
+![image.png](images/efe2a3db-eaa1-4a5b-9a74-e77d6de5ed9d.png)
 
 - **vscode 상단을 보면 워크페이스 이름이 바뀜**
 
-![image.png](vscode%20%ED%99%98%EA%B2%BD%20%EC%84%A4%EC%A0%95(Ubuntu24%2004)/image%2014.png)
+![image.png](images/image%2014.png)
 
-![image.png](vscode%20%ED%99%98%EA%B2%BD%20%EC%84%A4%EC%A0%95(Ubuntu24%2004)/image%2015.png)
+![image.png](images/image%2015.png)
 
 ## **✅ 6. 프로젝트 폴더 선택(또는 생성)**
 
@@ -137,39 +137,39 @@ cd arduino328p
 ls -l**
 ```
 
-![image.png](vscode%20%ED%99%98%EA%B2%BD%20%EC%84%A4%EC%A0%95(Ubuntu24%2004)/image%2016.png)
+![image.png](images/image%2016.png)
 
 - **vscode : File → Add Folder to Workspace… 선택**
 
-![image.png](vscode%20%ED%99%98%EA%B2%BD%20%EC%84%A4%EC%A0%95(Ubuntu24%2004)/image%2017.png)
+![image.png](images/image%2017.png)
 
 - **testexam 폴더를 찾아가 Add 시킨다**
 
-![image.png](vscode%20%ED%99%98%EA%B2%BD%20%EC%84%A4%EC%A0%95(Ubuntu24%2004)/f086c1a7-c903-48c8-9e2d-ab2ead5434af.png)
+![image.png](images/f086c1a7-c903-48c8-9e2d-ab2ead5434af.png)
 
 - **Yes 클릭**
 
-![image.png](vscode%20%ED%99%98%EA%B2%BD%20%EC%84%A4%EC%A0%95(Ubuntu24%2004)/image%2018.png)
+![image.png](images/image%2018.png)
 
 - **좌측 상단의 Explorer 클릭**
 
-![image.png](vscode%20%ED%99%98%EA%B2%BD%20%EC%84%A4%EC%A0%95(Ubuntu24%2004)/image%2019.png)
+![image.png](images/image%2019.png)
 
 - testexam 폴더가 추가된것을 볼수 있음
 
-![image.png](vscode%20%ED%99%98%EA%B2%BD%20%EC%84%A4%EC%A0%95(Ubuntu24%2004)/image%2020.png)
+![image.png](images/image%2020.png)
 
 ## **✅ 7**. CMake Tools 설정
 
 - **Visual Studio Code의 확장모듈 중에 CMake Tools를 선택하고 톱니바퀴를 누르면 나오는 메뉴중에 Extension Settings를 선택**
 
-![Untitled](vscode%20%ED%99%98%EA%B2%BD%20%EC%84%A4%EC%A0%95(Ubuntu24%2004)/Untitled%204.png)
+![Untitled](images/Untitled%204.png)
 
 - **설정값을 어느범위로 할 것이냐를 선택해야 하는데 User를 선택하면 항상 적용이 되고,**
 - **Workspace를 적용하면 현재 Open한 워크스페이스에 저장이 되어서 워크스페이스별로 설정을 달리 하고자 할때는 Workspace로 설정한다**
 - **우리는 Workspace를 선택**
 
-![Untitled](vscode%20%ED%99%98%EA%B2%BD%20%EC%84%A4%EC%A0%95(Ubuntu24%2004)/Untitled%205.png)
+![Untitled](images/Untitled%205.png)
 
 - **Cmake: Configure Args**
     - **옵션 중에 Configure Args를 아래 2개의 정의값을 추가한다.**
@@ -183,7 +183,7 @@ ls -l**
 -DCMAKE_MAKE_PROGRAM=/usr/bin/make**
 ```
 
-![image.png](vscode%20%ED%99%98%EA%B2%BD%20%EC%84%A4%EC%A0%95(Ubuntu24%2004)/image%2021.png)
+![image.png](images/image%2021.png)
 
 - **Cmake: Generator**
     - **빌드프로그램을 make를 사용하기 때문에 Generator 옵션에 Unix Makefiles로 입력**
@@ -192,18 +192,18 @@ ls -l**
 **Unix Makefiles**
 ```
 
-![image.png](vscode%20%ED%99%98%EA%B2%BD%20%EC%84%A4%EC%A0%95(Ubuntu24%2004)/image%2022.png)
+![image.png](images/image%2022.png)
 
 - **Toolchain Kit 설정**
     - **이제는 빌드를 위한 Toolchain Kit을 설정해야 한다**
     - **먼저 펌웨어 폴더 아래에 tools 폴더를 생성한다**
 
-![image.png](vscode%20%ED%99%98%EA%B2%BD%20%EC%84%A4%EC%A0%95(Ubuntu24%2004)/image%2023.png)
+![image.png](images/image%2023.png)
 
 - **CMake의 툴체인 설정 파일을 생성함 →avr-toolchain.cmake**
 - **어떤 컴파일러, 링커, 아키텍처를 사용할지 지정하는 설정 파일**
 
-![image.png](vscode%20%ED%99%98%EA%B2%BD%20%EC%84%A4%EC%A0%95(Ubuntu24%2004)/image%2024.png)
+![image.png](images/image%2024.png)
 
 ```bash
 **# CMake 프로젝트에 AVR 플랫폼 설정
@@ -281,23 +281,23 @@ set(CMAKE_FIND_ROOT_PATH_MODE_PACKAGE ONLY) # 패키지 검색 시 루트 경로
 
 - **CMake : Quick Start 를 선택**
 
-![image.png](vscode%20%ED%99%98%EA%B2%BD%20%EC%84%A4%EC%A0%95(Ubuntu24%2004)/image%2025.png)
+![image.png](images/image%2025.png)
 
 - **프로젝트 이름을 넣음**
 
-![image.png](vscode%20%ED%99%98%EA%B2%BD%20%EC%84%A4%EC%A0%95(Ubuntu24%2004)/image%2026.png)
+![image.png](images/image%2026.png)
 
 - **C Create C project 선택**
 
-![image.png](vscode%20%ED%99%98%EA%B2%BD%20%EC%84%A4%EC%A0%95(Ubuntu24%2004)/image%2027.png)
+![image.png](images/image%2027.png)
 
 - **실행파일 만들꺼니까.. Executable 선택**
 
-![image.png](vscode%20%ED%99%98%EA%B2%BD%20%EC%84%A4%EC%A0%95(Ubuntu24%2004)/image%2028.png)
+![image.png](images/image%2028.png)
 
 - **그냥 OK 선택**
 
-![image.png](vscode%20%ED%99%98%EA%B2%BD%20%EC%84%A4%EC%A0%95(Ubuntu24%2004)/image%2029.png)
+![image.png](images/image%2029.png)
 
 ### 🔍 의미는?
 
@@ -319,53 +319,53 @@ set(CMAKE_FIND_ROOT_PATH_MODE_PACKAGE ONLY) # 패키지 검색 시 루트 경로
 
 ### 🛠 트러블이 생기면….
 
-![image.png](vscode%20%ED%99%98%EA%B2%BD%20%EC%84%A4%EC%A0%95(Ubuntu24%2004)/image%2030.png)
+![image.png](images/image%2030.png)
 
-![image.png](vscode%20%ED%99%98%EA%B2%BD%20%EC%84%A4%EC%A0%95(Ubuntu24%2004)/image%2031.png)
+![image.png](images/image%2031.png)
 
 ---
 
 - **F1 키를 누르고 CMake: Configure를 선택**
 - **CMake Configuration을 실행하면 CMakeLists.txt 파일이 생성이 되고 기본적인 main.c 파일이 생성이 된다**
 
-![image.png](vscode%20%ED%99%98%EA%B2%BD%20%EC%84%A4%EC%A0%95(Ubuntu24%2004)/image%2032.png)
+![image.png](images/image%2032.png)
 
 - **Select a Kit 메뉴가 나오면 이전에 추가했던 AVR-GCC 툴킷을 선택**
 
-![image.png](vscode%20%ED%99%98%EA%B2%BD%20%EC%84%A4%EC%A0%95(Ubuntu24%2004)/image%2033.png)
+![image.png](images/image%2033.png)
 
 - **기본적인 CmakeList.txt 가 생성됨**
 
-![image.png](vscode%20%ED%99%98%EA%B2%BD%20%EC%84%A4%EC%A0%95(Ubuntu24%2004)/image%2034.png)
+![image.png](images/image%2034.png)
 
-![image.png](vscode%20%ED%99%98%EA%B2%BD%20%EC%84%A4%EC%A0%95(Ubuntu24%2004)/image%2035.png)
+![image.png](images/image%2035.png)
 
 - **main.c 파일을 아래와 같이 변경**
 
-![image.png](vscode%20%ED%99%98%EA%B2%BD%20%EC%84%A4%EC%A0%95(Ubuntu24%2004)/image%2036.png)
+![image.png](images/image%2036.png)
 
 - **다시 F1을 눌러 CMake:Configure를 실행**
 
-![image.png](vscode%20%ED%99%98%EA%B2%BD%20%EC%84%A4%EC%A0%95(Ubuntu24%2004)/image%2032.png)
+![image.png](images/image%2032.png)
 
 - **이번에 실행을 하면 Toolchain Kit과 CMakeLists.txt 기반으로 빌드환경이 만들어 짐**
 
-![image.png](vscode%20%ED%99%98%EA%B2%BD%20%EC%84%A4%EC%A0%95(Ubuntu24%2004)/image%2037.png)
+![image.png](images/image%2037.png)
 
 - **build 폴더가 생성되고 이곳에 빌드와 관련된 파일들이 생성된 것을  볼수 있다**
 
-![image.png](vscode%20%ED%99%98%EA%B2%BD%20%EC%84%A4%EC%A0%95(Ubuntu24%2004)/image%2038.png)
+![image.png](images/image%2038.png)
 
 ## **✅ 9. CMake Build**
 
 - **이제 빌드 환경은 다 만들어 졌고 실제로 빌드를 함**
 - **F1을 눌러서 CMake: Build를 실행하거나 하단의 Build 아이콘을 누르면 빌드가 진행됨**
 
-![image.png](vscode%20%ED%99%98%EA%B2%BD%20%EC%84%A4%EC%A0%95(Ubuntu24%2004)/image%2039.png)
+![image.png](images/image%2039.png)
 
 - **빌드완료**
 
-![image.png](vscode%20%ED%99%98%EA%B2%BD%20%EC%84%A4%EC%A0%95(Ubuntu24%2004)/image%2040.png)
+![image.png](images/image%2040.png)
 
 ## **✅ 10. CMakeList.txt 파일을 아래 내용으로 수정**
 
@@ -460,47 +460,47 @@ add_custom_command(TARGET ${EXECUTABLE}
 
 - **다시 빌드를 하면 이제는 펌웨어 섹션별로 용량이 표시되고  hex파일도 생성되는 것을 볼 수 있다**
 
-![image.png](vscode%20%ED%99%98%EA%B2%BD%20%EC%84%A4%EC%A0%95(Ubuntu24%2004)/image%2041.png)
+![image.png](images/image%2041.png)
 
 ## **✅ 11. 다운로드 하기**
 
 - **Arduino 를 컴퓨터에 연결한다**
 - **우분투 터미널에서 접속된 포트를 확인**
 
-![image.png](vscode%20%ED%99%98%EA%B2%BD%20%EC%84%A4%EC%A0%95(Ubuntu24%2004)/18ae100d-9c13-4571-a9ba-c2d902c1c898.png)
+![image.png](images/18ae100d-9c13-4571-a9ba-c2d902c1c898.png)
 
 - **/dev/ttyACM0 의 권한 확인**
 
-![image.png](vscode%20%ED%99%98%EA%B2%BD%20%EC%84%A4%EC%A0%95(Ubuntu24%2004)/image%2042.png)
+![image.png](images/image%2042.png)
 
 - **쓰기 권한이 없으로 쓰기 권한을 추가한다**
 
-![image.png](vscode%20%ED%99%98%EA%B2%BD%20%EC%84%A4%EC%A0%95(Ubuntu24%2004)/image%2043.png)
+![image.png](images/image%2043.png)
 
 - **Terminal → Run Task..를 실행**
 - **Tasks는 이클립스에서 External Tools와 비슷한 기능으로 외부의 프로그램을 연결해서 실행 할 수 있는 기능이다**
 
-![image.png](vscode%20%ED%99%98%EA%B2%BD%20%EC%84%A4%EC%A0%95(Ubuntu24%2004)/image%2044.png)
+![image.png](images/image%2044.png)
 
 - **Configure a Task 선택**
 
-![image.png](vscode%20%ED%99%98%EA%B2%BD%20%EC%84%A4%EC%A0%95(Ubuntu24%2004)/image%2045.png)
+![image.png](images/image%2045.png)
 
 - **하단의 Create tasks.json file template → 선택**
 
-![image.png](vscode%20%ED%99%98%EA%B2%BD%20%EC%84%A4%EC%A0%95(Ubuntu24%2004)/image%2046.png)
+![image.png](images/image%2046.png)
 
 - **Other → 선택**
 
-![image.png](vscode%20%ED%99%98%EA%B2%BD%20%EC%84%A4%EC%A0%95(Ubuntu24%2004)/image%2047.png)
+![image.png](images/image%2047.png)
 
 - **아래 그림처럼 .vscode 폴더에 tasks.json 파일이 생성되고 기본적인 템플릿 내용이 보인다**
 
-![image.png](vscode%20%ED%99%98%EA%B2%BD%20%EC%84%A4%EC%A0%95(Ubuntu24%2004)/image%2048.png)
+![image.png](images/image%2048.png)
 
 - **avrdude 의 위치를 확인**
 
-![image.png](vscode%20%ED%99%98%EA%B2%BD%20%EC%84%A4%EC%A0%95(Ubuntu24%2004)/image%2049.png)
+![image.png](images/image%2049.png)
 
 - **task.json 내용을 변경**
 
@@ -532,11 +532,11 @@ add_custom_command(TARGET ${EXECUTABLE}
 
 - **Teminal → Run Task 선택**
 
-![image.png](vscode%20%ED%99%98%EA%B2%BD%20%EC%84%A4%EC%A0%95(Ubuntu24%2004)/image%2050.png)
+![image.png](images/image%2050.png)
 
 - **완료**
 
-![image.png](vscode%20%ED%99%98%EA%B2%BD%20%EC%84%A4%EC%A0%95(Ubuntu24%2004)/image%2051.png)
+![image.png](images/image%2051.png)
 
 ====
 
